@@ -1,0 +1,123 @@
+
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background: #0d0d0d;
+    color: white;
+    text-align: center;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: rgba(0, 0, 0, 0.8);
+}
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ff4d4d;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+
+    font-weight: 700;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+nav ul li a:hover {
+    color: #ff4d4d;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    text-align: left;
+    padding: 0 100px;
+}
+.hero .content {
+    max-width: 600px;
+}
+.hero h1 {
+    font-size: 48px;
+}
+.hero h1 span {
+    color: #ff4d4d;
+}
+.hero h3 {
+    font-size: 28px;
+    margin-top: 10px;
+}
+.hero p {
+    margin-top: 20px;
+    font-size: 16px;
+}
+.social-icons {
+    margin-top: 20px;
+}
+.social-icons a {
+    color: white;
+    font-size: 20px;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+.social-icons a:hover {
+    color: #ff4d4d;
+}
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border: solid red;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+.btn:hover {
+    background: rgb(163, 53, 53);
+    color: #ff4d4d;
+}
+body {
+   
+  
+    /* The image used */
+    
+   
+    /* Full height */
+    height: 100%;
+   
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+
+   footer {
+    background: rgba(255, 255, 255, 0.1);
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+    margin-top: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
+
+footer span {
+    color: #ff4d4d;
+    font-weight: bold;
+}
